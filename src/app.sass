@@ -1,0 +1,68 @@
+@use "./abstract/index" as *
+@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Josefin+Sans:wght@300;400&family=Miniver&display=swap')
+@font-face
+    font-family: cav
+    font-weight: 700
+    src: url("./abstract/fonts/caviardreams_bold.woff2")
+
+@font-face
+    font-family: mrs saint
+    font-weight: 300
+    src: url("./abstract/fonts/mr.woff2")
+
+body
+    color: $gold
+    background: linear-gradient($opBlack, $opBlack), url(/images/landing/background-body.jpeg)
+    background-size: contain
+    background-attachment: fixed
+    word-wrap: break-word
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+h1
+    @include fontType($type: title, $color: $gold, $weight: 700, $size: 35px, $height: 52px, $form: uppercase)
+
+h2, h3
+    @include fontType($type: title, $color: $gold, $weight: 500, $size: 40px, $spacing: .22em, $height: 52px, $form: uppercase)
+
+h4
+    @include fontType($type: title, $color: $btnDark, $weight: 700, $size: inherit, $spacing: 2px, $height: 20px, $form: uppercase)
+
+span
+    @include fontType($type: scriptSpan, $color: $gold, $weight: 400, $size: 35px)
+
+p
+    @include fontType($type: paragraph, $color: $lightGray, $weight: 400, $size: 20px)
+
+.btn
+    @include btnStyle($wrapCol: $btnDark, $font: 15px $caviar, $borderCol: $gold )
+
+.col
+    span
+        @include fontType($type: scriptSpan, $color: $gold, $weight: 400, $size: 19px)
+
+nav li a
+    @include fontType($type: title, $color: $lightGray, $weight: 500, $size: 15px, $spacing: .36em, $height: 52px, $form: uppercase)
+    
+nav li a.active
+    color: $gold
+
+footer span
+    @include fontType($type: paragraph, $color: $lightGray, $weight: 400, $size: 20px)
+
+footer li a
+    @include fontType($type: title, $color: $lightGray, $weight: 500, $size: 12px, $spacing: .36em, $height: 52px, $form: uppercase)
+
+::-webkit-scrollbar
+    width: .7rem
+
+::-webkit-scrollbar-track
+    background: #000
+
+::-webkit-scrollbar-thumb
+    background: $btnDark
+    border: 1px solid $gold
+
+::-webkit-scrollbar-thumb:hover
+    background: $gold
+    border: 1px solid $btnDark

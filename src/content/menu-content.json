@@ -1,0 +1,703 @@
+{
+    "head": {
+        "title": "Las Brazas: Menu",
+        "desc": "The home of latin cuisine, cocktails & good times in Long Island",
+        "keywords": "restaurants near me, food near me, places to eat near me, food places near me, best restaurants near me, restaurants near me now",
+        "og_image": "/images/assets/las-brazas-open-graph-image.jpeg"
+    },
+    "placeholder": {
+        "text": [
+            "Our",
+            "Menu"
+        ],
+        "img": "/images/menu/menu-cover-img-1436x675.jpeg"
+    },
+    "end": {
+        "text": [
+            "That's",
+            "All"
+        ],
+        "img": "https://laurent.qodeinteractive.com/wp-content/uploads/2019/10/home-8-beckround-1.jpg"
+    },
+    "full_menu": [
+        {
+            "id": 0,
+            "category": "Appetizers",
+            "style": "black",
+            "img": "/images/menu/sausages-cover-img-1440x523.jpeg",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Sopa de Camarones  pqñ",
+                    "price": "$10",
+                    "desc": "Small Shrimp Soup"
+                },
+                {
+                    "id": 1,
+                    "name": "Calamares empanizados",
+                    "price": "$15",
+                    "desc": "Fried Calamari"
+                },
+                {
+                    "id": 2,
+                    "name": "Palitos de mozzarella fritos",
+                    "price": "$10",
+                    "desc": "Fried Mozzarella Sticks"
+                },
+                {
+                    "id": 3,
+                    "name": "Mejillones A la Diabla (15pc)",
+                    "price": "$20",
+                    "desc": "Mussels Fra Diavalo (15pcs)"
+                },
+                {
+                    "id": 4,
+                    "name": "Jaibas Al Vapor (MP)",
+                    "price": "-",
+                    "desc": "Steamed Maryland Blue Crabs"
+                },
+                {
+                    "id": 5,
+                    "name": "Pulpo a la Parrilla",
+                    "price": "$18",
+                    "desc": "Grilled Octopus"
+                },
+                {
+                    "id": 6,
+                    "name": "Chicharrones de Pescado",
+                    "price": "$20",
+                    "desc": "Fish Chicharrones"
+                },
+                {
+                    "id": 7,
+                    "name": "Camarones Salteados",
+                    "price": "$12",
+                    "desc": "Sauteed Shrimp"
+                },
+                {
+                    "id": 9,
+                    "name": "Yuca con Chicharrones",
+                    "price": "$14",
+                    "desc": "Fried yucca with fried pork skin"
+                },
+                {
+                    "id": 10,
+                    "name": "Pupusas - Revueltas,<br> Frijol con Queso,Queso (C/U)",
+                    "price": "$3",
+                    "desc": "Pupusas - mixed, beans w/cheese and cheese (each)"
+                },
+                {
+                    "id": 11,
+                    "name": "Picadera",
+                    "price": "Sm $25 - Lg $40",
+                    "desc": ""
+                },
+                {
+                    "id": 12,
+                    "name": "Empanadas de Carne",
+                    "price": "$6.50",
+                    "desc": "Beef empadana"
+                },
+                {
+                    "id": 13,
+                    "name": "tabla con quesos",
+                    "price": "$18",
+                    "desc": "Meat and Cheese Board"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Ceviches",
+            "style": "white",
+            "img": "/images/menu/ceviches-cover-img-1440x407.jpeg",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Mixto, Camaron, Pulpo, Calamar",
+                    "price": "$16",
+                    "desc": "Mixed, Shrimp, Octopus, Squid"
+                },
+                {
+                    "id": 1,
+                    "name": "*Ostras Frescas",
+                    "price": "Doz. $26 ½Doz. $14",
+                    "desc": "Fresh oysters"
+                },
+                {
+                    "id": 2,
+                    "name": "*Ostras Frescas<br> Preparadas",
+                    "price": "Doz. $30 ½Doz. $16",
+                    "desc": "*Mix Seafood Ceviche Over Oysters"
+                },
+                {
+                    "id": 3,
+                    "name": "Ostras a la Parrilla",
+                    "price": "Doz. $30 ½Doz. $16",
+                    "desc": "Char-Grilled Oysters"
+                },
+                {
+                    "id": 4,
+                    "name": "almejas",
+                    "price": "Doz. $18 ½Doz. $10",
+                    "desc": "Clams"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Salads",
+            "style": "black",
+            "img": "/images/menu/salads-cover-img-1440x407.jpeg",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Ensalada Caesar<br> Con Pollo",
+                    "price": "$15",
+                    "desc": "Chicken Caesar Salad"
+                },
+                {
+                    "id": 1,
+                    "name": "Ensalada Cobb",
+                    "price": "$16",
+                    "desc": "Tomates, Tocino, Huevos Sancochados, Aguacate, Cebolla, Pepinos, Pechuga a la Parrilla, Bleu Cheese. Tomatoes, Bacon, Boiled Eggs, Avocado, Onion, Cucumbers, Grilled Brisket, Blue Cheese"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Tex Mex",
+            "style": "white",
+            "img": "/images/menu/tacos-cover-img-1440x407.jpeg",
+            "is_sub_cat": true,
+            "sub_cat": [
+                {
+                    "name": "Tacos",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Camarones / Shrimp",
+                            "price": "$16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Burritos",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quesadilla",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Camarones / Shrimp",
+                            "price": "$18"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mixta",
+                            "price": "$16"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Fajitas Mixta",
+                            "price": "$16",
+                            "desc": "Steak, Pollo, Camarones, tom/onions/peppers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Del Mar",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Langosta Rellena 1.5LB (MP)",
+                    "price": "-",
+                    "desc": "1.5 LB Stuffed Lobster (MP)"
+                },
+                {
+                    "id": 1,
+                    "name": "Paella de Mariscos",
+                    "price": "$28",
+                    "desc": "Seafood Paella"
+                },
+                {
+                    "id": 2,
+                    "name": "Branzino Frito a la Cacerola",
+                    "price": "$25",
+                    "desc": "Pan Fried Branzino"
+                },
+                {
+                    "id": 3,
+                    "name": "Pargo Rojo Frito a ala Cacerola",
+                    "price": "$25",
+                    "desc": "Pan Fried Red Snapper"
+                },
+                {
+                    "id": 4,
+                    "name": "Salmon a la Parrilla",
+                    "price": "$24",
+                    "desc": "Grilled salmon"
+                },
+                {
+                    "id": 5,
+                    "name": "Tilapia a la Plancha<br> o Empanizada",
+                    "price": "$17",
+                    "desc": "Grilled or breaded tilapia"
+                },
+                {
+                    "id": 6,
+                    "name": "Camarones Jumbo<br> a la Parrilla",
+                    "price": "$22",
+                    "desc": "Jumbo Grilled Shrimp"
+                },
+                {
+                    "id": 7,
+                    "name": "Camarones Jumbo al Ajillo",
+                    "price": "$22",
+                    "desc": "Jumbo Shrimp Scampi"
+                },
+                {
+                    "id": 8,
+                    "name": "Langosta, Carne,<br> Camarones",
+                    "price": "$38",
+                    "desc": "Lobster, Steak & Shrimp"
+                },
+                {
+                    "id": 9,
+                    "name": "Mariscada a la Parrilla",
+                    "price": "$25",
+                    "desc": "Grilled Seafood Platter"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "category": "Sopas",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Sopa de Mariscos",
+                    "price": "$27",
+                    "desc": "Seafood soup"
+                },
+                {
+                    "id": 1,
+                    "name": "sopa de pescado",
+                    "price": "$23",
+                    "desc": "Fish soup"
+                },
+                {
+                    "id": 2,
+                    "name": "sopa de camarones",
+                    "price": "$17",
+                    "desc": "Shrimp soup"
+                },
+                {
+                    "id": 3,
+                    "name": "Sopa de salmon",
+                    "price": "$16",
+                    "desc": "Salmon soup"
+                },
+                {
+                    "id": 4,
+                    "name": "sopa de gallina",
+                    "price": "$17",
+                    "desc": "Hen soup"
+                },
+                {
+                    "id": 5,
+                    "name": "sopa de res",
+                    "price": "$16",
+                    "desc": "Beef soup"
+                },
+                {
+                    "id": 6,
+                    "name": "sopa de mondongo",
+                    "price": "$16",
+                    "desc": "Tripe soup"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "category": "Carnes",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "mar y tierra",
+                    "price": "$25",
+                    "desc": "Surf and turf"
+                },
+                {
+                    "id": 1,
+                    "name": "churrasco",
+                    "price": "$26"
+                },
+                {
+                    "id": 2,
+                    "name": "Entraña",
+                    "price": "$29",
+                    "desc": "Skirt steak"
+                },
+                {
+                    "id": 3,
+                    "name": "14 Oz. Ribeye",
+                    "price": "$35"
+                },
+                {
+                    "id": 4,
+                    "name": "carne asada",
+                    "price": "$17"
+                },
+                {
+                    "id": 5,
+                    "name": "Carne Con Camarones",
+                    "price": "$23",
+                    "desc": "Steak and Shrimp"
+                },
+                {
+                    "id": 6,
+                    "name": "Costilla de Res a la Parrilla",
+                    "price": "$26",
+                    "desc": "Grilled Short Ribs"
+                },
+                {
+                    "id": 7,
+                    "name": "Parrillada For 2",
+                    "price": "$40",
+                    "desc": "Steak, Chicken, Shrimp, Pork Loin & Chorizo"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "category": "Pollo",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Medio Pollo a la Parrilla",
+                    "price": "$16",
+                    "desc": "Half Grilled Chicken"
+                },
+                {
+                    "id": 1,
+                    "name": "Pollo Francese",
+                    "price": "$18",
+                    "desc": "Chicken Francaise"
+                },
+                {
+                    "id": 2,
+                    "name": "Pollo Parmigiano",
+                    "price": "$18",
+                    "desc": "Chicken Parmesan"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "category": "Pasta",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Pasta Con Mariscos",
+                    "price": "$26",
+                    "desc": "Salsa Marinara,Fra Diavolo o Alfredo Seafood Pasta"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "category": "Hamburguesa",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "8oz. Burger",
+                    "price": "$16",
+                    "desc": "Bacon, Lettuce, Tomatoes, Sauteed Onions, Mushrrooms, Swiss Cheese<br><br> <strong>All our dishes are served with rice, beans and salad.</strong>"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "category": "Kids Menu",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Arroz",
+                    "price": "-"
+                },
+                {
+                    "id": 1,
+                    "name": "Frijoles",
+                    "price": "-"
+                },
+                {
+                    "id": 2,
+                    "name": "Ensalada",
+                    "price": "-"
+                },
+                {
+                    "id": 3,
+                    "name": "Papas Fritas",
+                    "price": "-"
+                },
+                {
+                    "id": 4,
+                    "name": "Tostones",
+                    "price": "-"
+                },
+                {
+                    "id": 5,
+                    "name": "Yuca Frita",
+                    "price": "-"
+                },
+                {
+                    "id": 6,
+                    "name": "vegetables",
+                    "price": "-"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "category": "Side Dishes",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Chicken Fingers",
+                    "price": "$6"
+                },
+                {
+                    "id": 1,
+                    "name": "Mac & Cheese",
+                    "price": "$6"
+                },
+                {
+                    "id": 2,
+                    "name": "Hamburgers & Fries",
+                    "price": "$6"
+                },
+                {
+                    "id": 3,
+                    "name": "Cheese Burger & Fries",
+                    "price": "$6"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "category": "Licuados",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Fresa",
+                    "price": "$7"
+                },
+                {
+                    "id": 1,
+                    "name": "Piña",
+                    "price": "$7"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "category": "jugos naturales",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Naranja",
+                    "price": "$7"
+                },
+                {
+                    "id": 1,
+                    "name": "Naranja y Zanahoria",
+                    "price": "$7"
+                },
+                {
+                    "id": 2,
+                    "name": "Melon",
+                    "price": "$5"
+                },
+                {
+                    "id": 3,
+                    "name": "Limonada",
+                    "price": "$3"
+                },
+                {
+                    "id": 4,
+                    "name": "Agua de Coco",
+                    "price": "$4"
+                },
+                {
+                    "id": 5,
+                    "name": "Agua En Botella",
+                    "price": "$5"
+                },
+                {
+                    "id": 6,
+                    "name": "Panna Water",
+                    "price": "$9"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "category": "Sodas",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Coca Cola",
+                    "price": "$3"
+                },
+                {
+                    "id": 1,
+                    "name": "Pepsi",
+                    "price": "$2"
+                },
+                {
+                    "id": 2,
+                    "name": "Ginger Ale",
+                    "price": "$2"
+                },
+                {
+                    "id": 3,
+                    "name": "Sprite",
+                    "price": "$2"
+                },
+                {
+                    "id": 4,
+                    "name": "Jarritos",
+                    "price": "$4"
+                },
+                {
+                    "id": 5,
+                    "name": "St. Pellegrino",
+                    "price": "$9"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "category": "Frescos",
+            "style": "white",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Horchata",
+                    "price": "$3"
+                },
+                {
+                    "id": 1,
+                    "name": "Tamarindo",
+                    "price": "$3.50"
+                },
+                {
+                    "id": 2,
+                    "name": "Maranon",
+                    "price": "$3"
+                },
+                {
+                    "id": 3,
+                    "name": "Ensalada",
+                    "price": "$4"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "category": "Desayunos",
+            "style": "black",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "desayuno tipico",
+                    "price": "$13",
+                    "desc": "Huevos Revueltos, Arroz Negrito, Queso, Crema, Platanos y Aguacate."
+                },
+                {
+                    "id": 1,
+                    "name": "huevos divorciados",
+                    "price": "$13",
+                    "desc": "Huevos Fritos Con Salsa Roja y Verde, Arroz Negrito, Queso, Crema, Platanos y Aguacate"
+                },
+                {
+                    "id": 2,
+                    "name": "Huevos Rancheros",
+                    "price": "$13",
+                    "desc": "huevos Fritos Con Tomatada, Arroz Negrito, Queso, Crema y Platanos"
+                },
+                {
+                    "id": 3,
+                    "name": "Huevos Revueltos con chorizo",
+                    "price": "$14",
+                    "desc": "Arroz Negrito, Queso, Crema, Platanos y Aguate"
+                },
+                {
+                    "id": 4,
+                    "name": "Omeleta de vegetales y queso",
+                    "price": "$14",
+                    "desc": "Papas Mixtas con vegetales, Pan Tostado"
+                },
+                {
+                    "id": 5,
+                    "name": "Desayuno montanero",
+                    "price": "$18",
+                    "desc": "Huevos Fritos, Churrasco, Chorizo, Platano, Arroz Negrito, Queso, Cremay Aguacate"
+                },                
+                {
+                    "id": 6,
+                    "name": "Pancakes (3)",
+                    "price": "$8",
+                    "desc": "Toppings- Whiped Cream and Strawberries"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%svelte.assets%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%svelte.head%
+		<style>body{box-sizing: border-box; margin: 0; padding: 0;}.brazas{width: 100%;}</style>
+	</head>
+	<body>
+		<div class="brazas">%svelte.body%</div>
+		<script>
+			history.pushState = new Proxy(history.pushState, {
+				apply(target, thisArg, argumentsList) {
+					Reflect.apply(target, thisArg, argumentsList);
+					scrollTo({ top: 0, behavior: 'smooth' });
+				},
+			});
+		</script>
+	</body>
+</html>

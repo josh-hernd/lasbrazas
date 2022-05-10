@@ -1,0 +1,42 @@
+{
+    "nav_elements": [
+        {
+            "logo": {
+                "label": "Logo",
+                "url": "/",
+                "src": "/brazas-logo.svg"
+            }
+        },
+        {
+            "items": [
+                {
+                    "id": 0,
+                    "label": "Home",
+                    "url": "/"
+                },
+                {
+                    "id": 1,
+                    "label": "Menu",
+                    "url": "/menu"
+                }
+            ]
+        },
+        {
+            "footer": [
+                {
+                    "title": "Brazas del Campo Restaurant",
+                    "address": "1383 Brentwood Rd, Bay Shore, NY 11706",
+                    "hours": [
+                        "Sunday: 11AM - 11PM",
+                        "Monday: 9AM - 10PM",
+                        "Tuesday: 9AM - 10PM" ,
+                         "Wednesday: 9AM - 10PM" ,
+                         "Thursday: 9AM - 10PM" ,
+                         "Friday: 9AM - 11PM" ,
+                         "Saturday: 9AM - 11PM" 
+                    ]
+                }
+            ]
+        }
+    ]
+}

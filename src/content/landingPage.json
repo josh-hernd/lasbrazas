@@ -1,0 +1,137 @@
+{
+    "head": {
+        "title": "Las Brazas Restaurant Bar",
+        "desc": "The home of latin cuisine, cocktails & good times in Long Island",
+        "keywords": "restaurants near me, food near me, places to eat near me, food places near me, best restaurants near me, restaurants near me now",
+        "og_image": "/images/assets/las-brazas-open-graph-image.jpeg"
+    },
+    "parallax": {
+        "logo": "/brazas-logo.svg",
+        "backdrop": "/images/landing/bar-image.jpeg",
+        "foreground": "/images/landing/flames.png"
+    },
+    "welcome": {
+        "subtitle": "Welcome to",
+        "intro": "The home of latin cuisine, cocktails & good times in Long Island",
+        "paragraph": "We invite you and your family to discover mouthwatering Latin flavors in a casual-chic setting."
+    },
+    "three_col": [
+        {
+            "notImg": true,
+            "subtitle": "Selection",
+            "title": "Food",
+            "desc": "We have created a menu combining together the spices of the traditional Latin Cuisine infused with the modern American-Infused culinary.",
+            "button": "View More",
+            "url": "/menu"
+        },
+        {
+            "notImg": false,
+            "src": "/images/landing/drinks-bar.jpeg"
+        },
+        {
+            "notImg": true,
+            "subtitle": "Selection",
+            "title": "Drinks",
+            "desc": "From delicious food to delicious cocktails. Our food menu is paired with signature cocktails to round out your culinary experience.",
+            "button": "View More",
+            "url": "/menu/#Sodas"
+        }
+    ],
+    "two_col": [
+        {
+            "style": "white",
+            "desc": "Whether you're looking for a casual night out with friends in a party environment or a sophisticated evening with all the features of an up-scale gathering in Long Island, brazas del campo Delivers!",
+            "imgSrc": "/images/landing/plate-1.jpeg",
+            "active": false
+
+        },
+        {
+            "style": "black",
+            "subtitle": "Recomendations",
+            "title": "Our Best Specialties",
+            "desc": "The freshest, most delicious fish and seafood in Long Island.",
+            "imgSrc": "/images/landing/plate-2-449x415.jpeg",
+            "active": true,
+            "button": "View More",
+            "url": "/menu"
+        }
+    ],
+    "feature_menu": {
+            "category": "Tex Mex",
+            "child_cagtegory": true,
+            "button":"View More",
+            "url":"/menu",
+            "children": [
+                {
+                    "name": "Tacos",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Camarones / Shrimp",
+                            "price": "$16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Burritos",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quesadilla",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "Pollo / Chicken",
+                            "price": "$12"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Carne Asada",
+                            "price": "$14"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Camarones / Shrimp",
+                            "price": "$18"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mixta",
+                            "price": "$16"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Fajitas Mixta",
+                            "price": "$16",
+                            "desc": "Steak, Pollo, Camarones, tom/onions/peppers"
+                        }
+                    ]
+                }
+            ]
+        },
+        "placeholder": {
+            "text": ["Latin", "Cuisine"],
+            "img": "https://laurent.qodeinteractive.com/wp-content/uploads/2019/10/home-8-beckround-1.jpg"
+        }
+}

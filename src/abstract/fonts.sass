@@ -1,0 +1,59 @@
+@use "breakpoint.sass" as mediaQuery
+
+$josefin: 'Josefin Sans', sans-serif
+$buenard: 'Buenard', serif
+$miniver: 'Miniver', cursive
+$caviar: cav, sans-serif
+
+@mixin fontType($type, $color: #fff, $weight: 400, $style: normal, $size: 19px, $spacing: .4px, $height: 44px, $form: none)
+    @if $type == title
+        font-family: $caviar
+        color: $color
+        font-style: $style
+        font-weight: $weight
+        font-size: $size
+        text-transform: $form
+        line-height: $height
+        letter-spacing: $spacing
+        @include mediaQuery.breakpoint(mobileonly)
+            font-size: calc($size - 16px)
+            line-height: calc( $height - 12px )
+
+    @else if $type == subTitle
+        font-family: $buenard
+        color: $color
+        font-style: $style
+        font-weight: $weight 
+        font-size: $size
+        text-transform: $form
+        line-height: $height
+        letter-spacing: $spacing
+        @include mediaQuery.breakpoint(mobileonly)
+            font-size: $size - 6px
+            line-height: calc( $height - 14px )
+    
+    @else if $type == paragraph
+        font-family: $josefin
+        color: $color
+        font-style: $style
+        font-weight: $weight 
+        font-size: $size
+        text-transform: $form
+        line-height: $height
+        letter-spacing: $spacing
+        @include mediaQuery.breakpoint(mobileonly)
+            font-size: $size - 3px
+            line-height: calc( $height - 14px )
+    
+    @else if $type == scriptSpan
+        font-family: $miniver
+        color: $color
+        font-style: $style
+        font-weight: $weight 
+        font-size: $size
+        text-transform: $form
+        line-height: $height
+        letter-spacing: $spacing
+        @include mediaQuery.breakpoint(mobileonly)
+            font-size: $size - 3px
+            line-height: calc( $height - 14px )

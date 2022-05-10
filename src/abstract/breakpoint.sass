@@ -1,0 +1,28 @@
+@mixin breakpoint($point)
+    @if $point == desktop
+        @media (min-width: 2560px)
+            @content
+
+    @else if $point == lglaptop
+        @media (min-width: 1440px)
+            @content
+
+    @else if $point == smlaptop
+        @media (min-width: 768px) and (max-width: 1440px)
+            @content
+
+    @else if $point == tablet
+        @media (min-width: 425px) and (max-width: 768px)
+            @content
+
+    @else if $point == mobileonly
+        @media (max-width: 768px)
+            @content
+
+    @else if $point == smalldevice
+        @media (max-width: 425px)
+            @content
+
+@mixin dynamicpoint($min: all, $max: all)
+    @media (min-width: $min) and (max-width: $max)
+        @content
